@@ -1,0 +1,14 @@
+names:
+- american-football-player
+- referee
+- whitehat
+nc: 3
+#roboflow:
+#  license: CC BY 4.0
+#  project: american-football-player-detection
+#  url: https://universe.roboflow.com/fh-technikum-wien-m15r2/american-football-player-detection/dataset/3
+#  version: 3
+#  workspace: fh-technikum-wien-m15r2
+test: test/images
+train: train/images
+val: valid/images

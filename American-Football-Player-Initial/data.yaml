@@ -1,0 +1,18 @@
+names:
+- '1'
+- '2'
+- '3'
+- '4'
+- '5'
+- american-football-players
+- numbers
+nc: 7
+roboflow:
+  license: CC BY 4.0
+  project: american-football-player-detection
+  url: https://universe.roboflow.com/fh-technikum-wien-m15r2/american-football-player-detection/dataset/2
+  version: 2
+  workspace: fh-technikum-wien-m15r2
+test: test/images
+train: train/images
+val: valid/images

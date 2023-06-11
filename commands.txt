@@ -1,0 +1,12 @@
+Commands to train, validate on test data and predict on video/image:
+
+predict (in sourcecode:)
+model.predict("test6.mp4", show=True, save=True, save_txt=True, show_labels=True)
+
+train:
+yolo task=detect mode=train model=yolov8s.pt data=American-Football-Player/data.yaml epochs=80 batchsize=60 imgsz=640 plots=True
+
+validate on test data:
+yolo task=detect mode=val model=ModelsAnsResults/yoloHSVTrain/weights/best.pt data=American-Football-Player-HSV/data.yaml
+
+
